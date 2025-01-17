@@ -1,6 +1,54 @@
 /* This is a CSS comment. Comments are ignored by the browser */
 
 /* Use CSS selectors and rules to style your portfolio page */
+.masthead {
+  background-color: darkseagreen;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.tab {
+  padding: 15px 30px;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+  margin-right: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.tab:hover {
+  background-color: #bbb;
+}
+
+.tab-content {
+  display: none;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+}
+
+.active-tab {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.active-content {
+  display: block;
+}
+
+/* Extra style for better masthead presentation */
+.masthead h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
 h1 {
   font-family: sans-serif;
   color :darkseagreen;
