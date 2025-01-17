@@ -3,8 +3,9 @@
 /* Use CSS selectors and rules to style your portfolio page */
 h1 {
   font-family: sans-serif;
-  color :darkseagreen
+  color :darkseagreen;
 }
 body {
   font-family: sans-serif;
+  color :darkseagreen;
 }
